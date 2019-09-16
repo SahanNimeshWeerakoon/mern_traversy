@@ -8,7 +8,7 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "client-install": "npm install --prefix client"
+    "app-install": "npm install --prefix client && npm install"
   },
   "author": "Sahan Nimesh Weerakoon",
   "license": "ISC",
